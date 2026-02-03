@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SG-ID="sg-0cc876860cca2f416" # Replace with yur security group id
+SG_ID="sg-0cc876860cca2f416" # Replace with yur security group id
 AMI_ID="ami-0220d79f3f480ecf5" # Replace with your AMI Id
 
 for instance in $@
